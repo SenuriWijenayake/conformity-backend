@@ -1,5 +1,89 @@
 module.exports = [
   {
+    "isMajority": false,
+    "sizeValues": [
+      40,
+      60,
+      0,
+      0
+    ],
+    "questionText": "What is the main currency of Indonesia?",
+    "answers": [
+      {
+        "answer": "Rupee",
+        "id": 1
+      },
+      {
+        "answer": "Dollar",
+        "id": 2
+      },
+      {
+        "answer": "Rupiah",
+        "id": 3
+      },
+      {
+        "answer": "Krone",
+        "id": 4
+      }
+    ],
+    "isObjective": true,
+    "correctOrder": [
+      3,
+      1,
+      2,
+      4
+    ],
+    "questionNumber": -2,
+    "words": [
+      {
+        "key": "currency",
+        "explaination": "A system of money in general use in a particular country"
+      }
+    ]
+  },
+  {
+    "isMajority": true,
+    "sizeValues": [
+      70,
+      20,
+      10,
+      0
+    ],
+    "questionText": "Politicians are profiteers. Do you agree or disagree with this statement?",
+    "answers": [
+      {
+        "answer": "Strongly Disagree",
+        "id": 1
+      },
+      {
+        "answer": "Disagree",
+        "id": 2
+      },
+      {
+        "answer": "Agree",
+        "id": 3
+      },
+      {
+        "answer": "Strongly Agree",
+        "id": 4
+      }
+    ],
+    "isObjective": false,
+    "correctOrder": [
+      3,
+      4,
+      2,
+      1
+    ],
+    "questionNumber": -1,
+    "words": [
+      {
+        "key": "profiteer",
+        "explaination": "A person who make an excessive or unfair profit, especially illegally"
+      }
+    ]
+  },
+  {
     "isMajority": true,
     "sizeValues": [
       100,
