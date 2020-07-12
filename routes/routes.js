@@ -31,9 +31,14 @@ var appRouter = function(app) {
 
   //Endpoint to index
   app.get('/', function(req, res) {
+<<<<<<< HEAD
     result = JSON.stringify({
       message: "hellow world"
     });
+=======
+    
+    result = JSON.stringify({message: "hellow world"});
+>>>>>>> f275240c49ff33c2c36443ae282662e751af6e23
     res.status(200).send(result);
   });
 

@@ -1,5 +1,4 @@
 var express = require("express");
-var port = process.env.PORT || 8080;
 var bodyParser = require("body-parser");
 var routes = require("./routes/routes.js");
 
@@ -16,4 +15,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 routes(app);
 
+<<<<<<< HEAD
 server.listen(process.env.PORT || 5000);
+=======
+server.listen(process.env.PORT || 8080);
+>>>>>>> f275240c49ff33c2c36443ae282662e751af6e23
